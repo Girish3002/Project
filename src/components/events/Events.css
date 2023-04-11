@@ -1,0 +1,27 @@
+.Events{
+    padding-block: 80px;
+    background-color: #F6F7F8;
+    width: 100vw;
+}
+.events-heading{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.slick-prev{
+    /* background-color: pink; */
+    background-color: black;
+    border-radius: 100%;
+}
+.slick-prev:hover{
+    background-color: black;
+}
+.slick-next{
+    /* background-color: pink; */
+    background-color: black;
+    border-radius: 100%;
+}
+.slick-next:hover{
+    background-color: black;
+}

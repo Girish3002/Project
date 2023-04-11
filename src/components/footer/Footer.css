@@ -1,0 +1,113 @@
+.Footer{
+    width: 100vw;
+    background-color: #2B2E33;
+    color:white;
+    padding-block: 3rem;
+}
+.footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-top .logo{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer-top .logo:hover{
+  cursor: pointer;
+}
+
+.footer-top .place-info .logo img {
+  width: 60px;
+  border-radius: 50%;
+}
+.footer-top .founder-info .logo img {
+  width: 60px;
+  /* border-radius: 50%; */
+}
+.footer-top .logo-text{
+  display:flex;
+  flex-direction: column;
+justify-content: space-between;
+gap: 5px;}
+.footer-top .logo-name{
+  font-size: 1.45rem;
+  font-weight: 600;
+
+}
+.footer-top .logo-address{
+  font-size: 1rem;
+  font-weight: 400;
+}
+.footer-top .place-info .logo{
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+
+.footer-bottom hr{
+  margin-block: 1rem;
+  
+}
+.footer-bottom .contact-footer-details p{
+  padding-top: 2px;
+}
+.footer-bottom .contact-footer{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap:0.4rem;
+margin: auto;
+width: 50%;
+text-align: center;
+}
+.footer-bottom .contact-footer hr{
+  width: 40vw;
+  text-align: center;
+}
+.footer-bottom .contact-footer .contact-footer-phone{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 0.7rem;
+}
+.footer-bottom .footer-end{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom .footer-end-right-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+.footer-bottom .footer-end-right-links > *{
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width:800px){
+  .footer-top{
+    flex-direction:column;
+    align-items: start;
+    gap: 0.7rem;
+    margin-left:1.3rem;
+    gap: 1.5rem;
+  }
+
+  .footer-top .place-info .logo{
+   
+    flex-direction: row;
+    text-align: left;
+  }
+  .footer-bottom .footer-end{
+flex-direction: column;
+gap: 0.7rem;
+  }
+
+}

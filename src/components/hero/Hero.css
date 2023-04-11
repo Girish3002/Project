@@ -1,0 +1,61 @@
+.Hero {
+    width: 100vw;
+    height:100vh;
+    background-repeat: no-repeat;
+  background-position: center top ;
+  background-image: linear-gradient(to top , rgb(98,50,160,0.9)0.1%, transparent),url("../../assets/dattaMaharaj1.png");;
+  background-size: contain;
+  background-color: black;
+
+} 
+      .type-writer{
+        position: relative;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 3.25rem;
+        font-weight: 700;
+        color: #6232a0e6;
+        color: orange;
+        width: 80vw;
+        text-align: center;  
+      }
+    
+  
+  
+  @media screen and (max-width: 912px) {
+    .Hero {
+        width: 100vw;
+        height: 100vh;
+        background-color:rgba(97, 50, 159, 0.902) ;
+        background-repeat: no-repeat;
+      background-position: center top ;
+      background-image:  linear-gradient( rgb(98,50,160,0.9)0.1%, rgba(0,0,0,0.2)),
+
+      url("../../assets/dtm1.jpg");
+      background-size: contain;
+      background-color: black;
+    
+    } 
+    .type-writer{
+        /* width: 100%; */
+        position: relative;
+        background: linear-gradient(to bottom, rgba(148, 146, 146, 0.4) 40%, rgba(131, 124, 124, 0.2) 100%);        top: 93%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #6232a0e6;
+        color: orange;
+        width: 100vw;
+        text-align: center;  
+        z-index: 1;
+    }
+      .typewriter-text{
+        padding-top: 5px;
+        font-size: 1.2rem;
+      }
+      
+    }
+  
+  

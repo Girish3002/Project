@@ -1,0 +1,40 @@
+.Testimonials{
+    padding-block: 80px;
+    background-color: white;
+    width: 100vw;
+}
+.testimonials-wrapper{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.testimonials-heading{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.Testimonials .slick-prev{
+    /* background-color: pink; */
+    background-color: transparent;
+    border-radius: 100%;
+}
+.Testimonials .slick-prev:hover{
+    background-color: transparent;
+    cursor: default;
+}
+.Testimonials .slick-next{
+    /* background-color: pink; */
+    background-color: transparent;
+    border-radius: 100%;
+}
+.Testimonials .slick-next:hover{
+    background-color: transparent;
+    cursor: default;
+}
+/* .testimonial-video{
+    margin-left: 10px;
+} */

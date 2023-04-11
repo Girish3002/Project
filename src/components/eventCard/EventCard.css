@@ -1,0 +1,105 @@
+.EventCard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap:1.5rem;
+    height: 200px;
+    background-color: white;
+    border-radius:20px;
+    margin-block: 3rem;
+    padding-inline: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.eventLeft{
+
+   width: 40%;
+   /* padding-left: 20px; */
+   
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.eventLeft img{
+    max-width: 100%;
+    min-width: 250px;
+    max-height: 190px;
+    margin: auto;
+    border-radius: 5%;
+    
+}
+.eventRight{
+    /* width: 60%; */
+    margin-block: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.eventRight h3{
+    font-size: 1.5rem;
+}
+.eventRight p {
+    font-size: 1.25rem;
+    color: #2f343f;
+}
+.eventRight .eventBottomButtons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.40rem;
+    font-weight: 600;    
+}
+.eventRight .eventBottomButtons .firstButton{
+    display: flex;
+    gap: 10px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.eventRight .eventBottomButtons .secondButton{
+    color: #439fe0;
+    text-decoration: underline;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 990px){
+    .EventCard{
+       
+       flex-direction: column;
+       align-items: start;
+       /* justify-content: center; */
+       min-height: 650px;
+       /* margin-block: 0px; */
+    }
+    .eventLeft{
+        width: 100%;
+        min-width: auto;
+        align-items: start;
+        height: min-content;
+    }
+    .eventLeft img{
+        max-height: 265px;
+        /* min-width: none; */
+    }
+    .eventRight h3{
+        font-size: 1.39rem;
+    }
+  
+    
+}
+@media screen and (max-width: 500px){
+    .eventBottomButtons{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .EventCard{
+        min-height: 590px;
+    }
+}

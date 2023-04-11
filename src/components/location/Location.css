@@ -1,0 +1,26 @@
+.Location{
+    padding-block: 80px;
+    background-color: #F6F7F8;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.Location iframe{
+    /* margin: 0 auto; */
+    width: 80vw;
+    /* margin: auto; */
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Location .heading{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+@media only screen and (max-width: 600px) {
+    .Location{
+
+        /* width: 97vw; */
+    }
+}

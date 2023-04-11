@@ -1,0 +1,7 @@
+:root{
+    --primary-color:#60349e;
+}
+.container{
+    max-width: 1080px;
+    margin-inline: auto;
+}
