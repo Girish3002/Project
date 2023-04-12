@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import EventCard from "../eventCard/EventCard";
 import "./Events.css";
-import eventsData from "../../components/eventdata.jsx";
+import eventsData from "../eventdata.jsx";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
