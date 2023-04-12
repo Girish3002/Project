@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import EventCard from "../eventCard/EventCard";
 import "./Events.css";
-import eventsData from "../eventdata.jsx";
+import EventData from "../EventData.jsx";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -46,7 +46,7 @@ export default class CustomArrows extends Component {
         <div className="container">
           <h2 className="events-heading">Events and Festivals</h2>
           <Slider {...settings} style={{ width: "80vw", marginInline: "auto" }}>
-            {eventsData.map((event) => {
+            {EventData.map((event) => {
               return <EventCard key={event.id} event={event} />;
             })}
             {/* <div>
