@@ -57,11 +57,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a
-                className="navbar-link"
-                href="https://www.instagram.com/thapatechnical/"
-                target="_blank"
-              >
+              <a className="navbar-link" href="#">
                 Contact
               </a>
             </li>
