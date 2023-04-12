@@ -45,8 +45,8 @@ const Footer = () => {
             <hr />
             <h2>Contact</h2>
             <div className="contact-footer-details">
-              <p>Nirguna Paduka Math, Sri Datta Devasthan,</p>{" "}
-              <p> Sri Kshetra Dharangaon Khadak,</p>
+              <p>Nirguna Paduka Math, Shri Datta Devasthan,</p>{" "}
+              <p> Shri Kshetra Dharangaon Khadak,</p>
               <p>Taluka - Niphad, District - Nashik.</p>
             </div>
             <div className="contact-footer-phone">

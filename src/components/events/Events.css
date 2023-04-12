@@ -25,3 +25,8 @@
 .slick-next:hover{
     background-color: black;
 }
+@media screen and (max-width: 500px){
+    .events-heading{
+        font-size: 2rem;
+    }
+}

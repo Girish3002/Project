@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Navbar.css";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { RxHamburgerMenu } from "react-icons/rx";
 import { GrClose } from "react-icons/gr";
 import dattaMaharajLogo from "../../assets/dattaMaharajLogo.png";
 import Hero from "../hero/Hero";
@@ -26,7 +26,7 @@ const Navbar = () => {
             className="logo"
           />
           <div className="logo-text">
-            <span className="logo-name">Shri Datta Devasthan </span>
+            <span className="logo-name">Shri Datta Devsthan </span>
             <span className="logo-address">Dharangaon, Khadak. </span>
           </div>
         </div>
@@ -69,7 +69,7 @@ const Navbar = () => {
         </nav>
 
         <div className="mobile-navbar-btn" onClick={toggleNavbar}>
-          <GiHamburgerMenu name="menu-outline" className="mobile-nav-icon" />
+          <RxHamburgerMenu name="menu-outline" className="mobile-nav-icon" />
           <GrClose name="close-outline" className="mobile-nav-icon" />
         </div>
       </header>

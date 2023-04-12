@@ -82,7 +82,7 @@
         height: min-content;
     }
     .eventLeft img{
-        max-height: 265px;
+        /* max-height: 265px; */
         /* min-width: none; */
     }
     .eventRight h3{
