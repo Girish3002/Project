@@ -16,7 +16,7 @@ const Footer = () => {
               <img
                 src={MaheshGiriMaharajImg}
                 alt="Datta Maharaj logo"
-                class="logo"
+                className="logo"
               />
               <div className="logo-text">
                 <p className="logo-name">Founder-Acharya </p>
@@ -29,7 +29,7 @@ const Footer = () => {
               <img
                 src={dattaMaharajLogo}
                 alt="Datta Maharaj logo"
-                class="logo"
+                className="logo"
               />
               <div className="logo-text">
                 <p className="logo-name">Shri Datta Devasthan </p>

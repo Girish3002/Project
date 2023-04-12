@@ -5,24 +5,28 @@ import GuruPurnimaImg from "../assets/mgm1.jpg";
 
 const eventsData = [
   {
+    id: 1,
     image: DattaJayantiImg,
     title: "Datta Jayanti",
     description:
       "Datta Maharaj Jayanti is an annual festival celebrated in India to commemorate the birth of Lord Dattatreya, a revered deity in Hinduism.",
   },
   {
+    id: 2,
     image: GuruPurnimaImg,
     title: "Guru Purnima",
     description:
       "Guru Purnima is an important festival that is celebrated to honor the spiritual teachers, or gurus, who impart knowledge and guidance to their disciples. ",
   },
   {
+    id: 3,
     image: ParayanImg,
     title: "Parayan Saptah",
     description:
       "Datta Parayan Saptah is a week-long event observed by followers of Lord Dattatreya, a revered deity in Hinduism. It is a time for intense spiritual practice and devotion.",
   },
   {
+    id: 4,
     image: PalkhiSolah,
     title: "Palkhi Sohala",
     description:

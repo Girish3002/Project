@@ -4,10 +4,13 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 import dattaMaharajLogo from "../../assets/dattaMaharajLogo.png";
 import Hero from "../hero/Hero";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState(true);
   const reference = useRef();
+  const navigate = useNavigate();
+  const currentPath = window.location.pathname;
   const toggleNavbar = () => {
     reference.current.classList.toggle("active");
     setActive(!active);
@@ -17,33 +20,45 @@ const Navbar = () => {
     <div className="Navbar">
       <header className="header" ref={reference}>
         <div className="logo">
-          <img src={dattaMaharajLogo} alt="Datta Maharaj logo" class="logo" />
+          <img
+            src={dattaMaharajLogo}
+            alt="Datta Maharaj logo"
+            className="logo"
+          />
           <div className="logo-text">
             <span className="logo-name">Shri Datta Devasthan </span>
             <span className="logo-address">Dharangaon, Khadak. </span>
           </div>
         </div>
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li>
-              <a class="navbar-link" href="#">
+        <nav className="navbar">
+          <ul className="navbar-list">
+            <li
+              onClick={() => {
+                navigate("/");
+              }}
+            >
+              <a className="navbar-link" href="#">
                 Home
               </a>
             </li>
             <li>
-              <a class="navbar-link" href="#">
+              <a className="navbar-link" href="#">
                 About
               </a>
             </li>
-            <li>
-              <a class="navbar-link" href="#">
+            <li
+              onClick={() => {
+                navigate("/events");
+              }}
+            >
+              <a className="navbar-link" href="#">
                 Events
               </a>
             </li>
             <li>
               <a
-                class="navbar-link"
+                className="navbar-link"
                 href="https://www.instagram.com/thapatechnical/"
                 target="_blank"
               >
@@ -53,12 +68,13 @@ const Navbar = () => {
           </ul>
         </nav>
 
-        <div class="mobile-navbar-btn" onClick={toggleNavbar}>
-          <GiHamburgerMenu name="menu-outline" class="mobile-nav-icon" />
-          <GrClose name="close-outline" class="mobile-nav-icon" />
+        <div className="mobile-navbar-btn" onClick={toggleNavbar}>
+          <GiHamburgerMenu name="menu-outline" className="mobile-nav-icon" />
+          <GrClose name="close-outline" className="mobile-nav-icon" />
         </div>
       </header>
-      <Hero active={active} />
+
+      {currentPath === "/" && <Hero active={active} />}
     </div>
   );
 };

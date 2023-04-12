@@ -6,13 +6,12 @@ import EventCard from "../eventCard/EventCard";
 import "./Events.css";
 import eventsData from "../../components/eventdata.jsx";
 
-
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
       className={className}
-      style={{ ...style, display: "block"}}
+      style={{ ...style, display: "block" }}
       onClick={onClick}
     />
   );
@@ -26,7 +25,6 @@ function SamplePrevArrow(props) {
       style={{
         ...style,
         display: "block",
-        
       }}
       onClick={onClick}
     />
@@ -48,9 +46,8 @@ export default class CustomArrows extends Component {
         <div className="container">
           <h2 className="events-heading">Events and Festivals</h2>
           <Slider {...settings} style={{ width: "80vw", marginInline: "auto" }}>
-
-            {eventsData.map((event)=>{
-              return <EventCard event={event}/>
+            {eventsData.map((event) => {
+              return <EventCard key={event.id} event={event} />;
             })}
             {/* <div>
               <EventCard />
@@ -70,5 +67,3 @@ export default class CustomArrows extends Component {
     );
   }
 }
-
-
