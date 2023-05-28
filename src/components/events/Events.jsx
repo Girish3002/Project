@@ -47,7 +47,7 @@ export default class CustomArrows extends Component {
           <h2 className="events-heading">Events and Festivals</h2>
           <Slider {...settings} style={{ width: "80vw", marginInline: "auto" }}>
             {EventData.map((event) => {
-              return <EventCard key={event.id} event={event} />;
+              return <EventCard key={event.id} id={event.id} event={event} />;
             })}
             {/* <div>
               <EventCard />

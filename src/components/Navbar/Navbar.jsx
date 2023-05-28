@@ -36,6 +36,7 @@ const Navbar = () => {
             <li
               onClick={() => {
                 navigate("/");
+                toggleNavbar();
               }}
             >
               <a className="navbar-link" href="#">
@@ -50,13 +51,29 @@ const Navbar = () => {
             <li
               onClick={() => {
                 navigate("/events");
+                toggleNavbar();
               }}
             >
               <a className="navbar-link" href="#">
                 Events
               </a>
             </li>
-            <li>
+            <li
+              onClick={() => {
+                navigate("/donate");
+                toggleNavbar();
+              }}
+            >
+              <a className="navbar-link" href="#">
+                Donate
+              </a>
+            </li>
+            <li
+              onClick={() => {
+                navigate("/contact");
+                toggleNavbar();
+              }}
+            >
               <a className="navbar-link" href="#">
                 Contact
               </a>
