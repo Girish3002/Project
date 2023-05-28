@@ -43,7 +43,12 @@ const Navbar = () => {
                 Home
               </a>
             </li>
-            <li>
+            <li
+              onClick={() => {
+                navigate("/about");
+                toggleNavbar();
+              }}
+            >
               <a className="navbar-link" href="#">
                 About
               </a>

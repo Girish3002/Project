@@ -7,6 +7,7 @@ import Home from "./components/pages/home/Home";
 import EventsPage from "./components/pages/EventsPage/EventsPage";
 import DonatePage from "./components/pages/DonatePage/DonatePage";
 import ContactPage from "./components/pages/Contact/ContactPage";
+import AboutPage from "./components/pages/About/AboutPage";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         <Route path="/events" element={<EventsPage />} />
         <Route path="/donate" element={<DonatePage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
 
       <Footer />
