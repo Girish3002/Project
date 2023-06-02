@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import EventCard from "../eventCard/EventCard";
+import FEventCard from "../eventCard/FEventCard";
 import "./Events.css";
 import EventData from "../EventData.jsx";
 
@@ -49,18 +50,6 @@ export default class CustomArrows extends Component {
             {EventData.map((event) => {
               return <EventCard key={event.id} id={event.id} event={event} />;
             })}
-            {/* <div>
-              <EventCard />
-            </div>
-            <div>
-              <EventCard />
-            </div>
-            <div>
-              <EventCard />
-            </div>
-            <div>
-              <EventCard />
-            </div> */}
           </Slider>
         </div>
       </div>

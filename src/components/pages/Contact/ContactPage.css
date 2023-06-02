@@ -30,17 +30,50 @@
     margin-top: 10px;
     margin-left: 20px;
 }
-.contact-page-right .sample-image .blank-image{
+.contact-page-right .imagebox{
+    width: 100%;
+    height: 430px;
+    border-radius: 0.25rem;
+
+    box-shadow: -3px -6px 72px 20px rgba(0,0,0,0.45);
+}
+.contact-page-right img{
     width: 100%;
     height:430px;
-    border: 2px solid black;
-    background-color: antiquewhite;
+    object-fit: cover;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border-radius: 0.25rem;
+   
 }
+
+/* slick */
+
+.ContactPageContainer .slick-arrow{
+    /* background-color: pink; */
+    background-color: transparent;
+    border-radius: 100%;
+    display: none;
+}
+.ContactPageContainer .slick-prev:hover{
+    background-color: transparent;
+    cursor: default;
+}
+.ContactPageContainer .slick-next{
+    /* background-color: pink; */
+    background-color: transparent;
+    border-radius: 100%;
+}
+.ContactPageContainer .slick-next:hover{
+    background-color: transparent;
+    cursor: default;
+}
+.ContactPageContainer .slick-dots {
+     bottom: 20px;  
+    /* left: 100px;  */
+  }
 
 @media screen and (max-width: 990px){
     .ContactPageContainer{
@@ -52,7 +85,7 @@
         
     }
     .contact-page-right{
-        width: 80%;
+        width: 100%;
         
         margin: 40px auto;
     }
@@ -60,5 +93,24 @@
     .contact-page-container .contact-footer-address-map{
         margin-left: 0;
         /* margin-bottom: 30px; */
+    }
+
+    .contact-page-right .imagebox{
+        width: 100%;
+        /* height: 430px; */
+        border-radius: 0.25rem;
+    
+        box-shadow: -3px -6px 72px 20px rgba(0,0,0,0.45);
+    }
+    .contact-page-right img{
+        width: 100%;
+        /* height:430px; */
+        object-fit: cover;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.25rem;
+       
     }
 }
