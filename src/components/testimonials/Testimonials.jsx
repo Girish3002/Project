@@ -4,7 +4,30 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Testimonials.css";
 import { useStyleMediaQuery } from "../hooks/useStyleMediaQuery";
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "none" }}
+      onClick={onClick}
+    />
+  );
+}
 
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "none",
+      }}
+      onClick={onClick}
+    />
+  );
+}
 const Testimonials = () => {
   const { matches: isSmall } = useStyleMediaQuery({
     mixOrMax: "max",
@@ -19,6 +42,8 @@ const Testimonials = () => {
     autoplay: true,
     speed: 3000,
     autoplaySpeed: 3000,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1424,

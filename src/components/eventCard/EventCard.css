@@ -10,11 +10,12 @@
     margin-inline: auto;
 
     gap:1.5rem;
-    height: 200px;
+    height: 230px;
     background-color: white;
     border-radius:20px;
     margin-block: 3rem;
     padding-inline: 20px;
+    /* padding-block: 20px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .eventLeft{
@@ -27,6 +28,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    /* padding-block: 20px; */
   
 }
 

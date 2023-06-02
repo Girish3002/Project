@@ -2,8 +2,8 @@
     padding-block: 80px;
     background-color: #F6F7F8;
     width: 100vw;
-    position: relative;
-    z-index: -1;
+    /* position: relative;
+    z-index: -1; */
 }
 .events-heading{
     color: var(--primary-color);

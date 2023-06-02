@@ -2,8 +2,8 @@
     padding-block: 80px;
     background-color: white;
     width: 100vw;
-    position: relative;
-    z-index: -1;
+    /* position: relative;
+    z-index: -1; */
 }
 
 
@@ -15,27 +15,7 @@
     font-weight: 600;
     margin-bottom: 3rem;
 }
-.Testimonials .slick-prev{
-    /* background-color: pink; */
-    background-color: transparent;
-    border-radius: 100%;
-}
-.Testimonials .slick-prev:hover{
-    background-color: transparent;
-    cursor: default;
-}
-.Testimonials .slick-next{
-    /* background-color: pink; */
-    background-color: transparent;
-    border-radius: 100%;
-}
-.Testimonials .slick-next:hover{
-    background-color: transparent;
-    cursor: default;
-}
-/* .testimonial-video{
-    margin-left: 10px;
-} */
+
 
 @media screen and (max-width: 500px){
     .testimonials-heading{
