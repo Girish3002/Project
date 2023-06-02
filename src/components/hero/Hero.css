@@ -24,7 +24,7 @@
   
   
   @media screen and (max-width: 912px) {
-    .Hero {
+    /* .Hero {
         width: 100vw;
         height: 100vh;
         background-color:rgba(97, 50, 159, 0.902) ;
@@ -36,12 +36,29 @@
       background-size: contain;
       background-color: black;
     
+    }  */
+    .Hero {
+        width: 100vw;
+        height: 70vh;
+        background-color:rgba(97, 50, 159, 0.902) ;
+        background-repeat: no-repeat;
+      background-position: center top ;
+      background-image:  
+
+      url("../../assets/nsm4.jpg");
+      background-size: contain;
+      background-color: black;
+      height: 80v;
+      margin-top: 70px;
+      /* padding-top: 300px; */
+    
     } 
     .type-writer{
         /* width: 100%; */
         position: relative;
         background: linear-gradient(to bottom, rgba(148, 146, 146, 0.4) 40%, rgba(131, 124, 124, 0.2) 100%);        top: 93%;
         left: 50%;
+        /* top:65%; */
         transform: translate(-50%,-50%);
         font-size: 1.3rem;
         font-weight: 700;
