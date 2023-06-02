@@ -3,6 +3,7 @@ import "./EventsPage.css";
 import eventspageData from "../../eventpagedata";
 import { useParams } from "react-router-dom";
 import { useEffect, useRef } from "react";
+import parayanImg from "../../../assets/parayan8.jpg";
 
 const EventsPage = () => {
   const { slideId } = useParams();
@@ -50,11 +51,8 @@ const EventsPage = () => {
                   {/* images to be integrated here */}
 
                   <div className="events-page-description-right">
-                    {/* <img src="" alt="" /> */}
-                    <div className="sample-image">
-                      <div className="blank-image">
-                        <p>Event related images here</p>
-                      </div>
+                    <div className="imagebox">
+                      <img src={element.image} alt="devsthanImg1" />
                     </div>
                   </div>
                 </div>

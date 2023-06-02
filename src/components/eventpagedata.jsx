@@ -2,12 +2,17 @@
 // import ParayanImg from "../assets/dtm9.jpg";
 // import PalkhiSolah from "../assets/dtm2.jpg";
 // import GuruPurnimaImg from "../assets/mgm1.jpg";
+import DattaJayantiImg from "../assets/Mgmf1.png";
+import GuruPurnima from "../assets/annadan2.jpeg";
+import ParayanImg from "../assets/parayan8.jpg";
+import Palkhisohala from "../assets/parayan8.jpg";
 
 const eventspageData = [
   {
     id: 1,
     // image: DattaJayantiImg,
     title: "Datta Jayanti",
+    image: DattaJayantiImg,
     description: [
       [
         "Datta Jayanti is a significant religious festival celebrated in Gangapur, Dharangaon and many other parts of India. It honors the birth of Lord Dattatreya, who is considered to be an incarnation of the Hindu deities Brahma, Vishnu, and Shiva combined.",
@@ -24,6 +29,7 @@ const eventspageData = [
     id: 2,
     // image: GuruPurnimaImg,
     title: "Guru Purnima",
+    image: GuruPurnima,
     description: [
       [
         "Guru Purnima is a special festival celebrated in Datta Devsthan and various parts of India to honor and express gratitude towards spiritual teachers or Gurus. It is observed on the full moon day in the month of Ashadha (June or July) as per the Hindu lunar calendar.",
@@ -42,6 +48,7 @@ const eventspageData = [
     id: 3,
     // image: ParayanImg,
     title: "Parayan Saptah",
+    image: ParayanImg,
     description: [
       [
         "Parayan Saptah is a week-long religious event that takes place in Gangapur, Dharangaon and other parts of India. It is dedicated to the recitation and study of sacred scriptures, particularly the Gurucharitra Granth, which narrates the life and teachings of Shri Narasimha Saraswati Swami Maharaj.",
