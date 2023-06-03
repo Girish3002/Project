@@ -1,8 +1,7 @@
-import DattaJayantiImg from "../assets/dtm10.jpg";
-import ParayanImg from "../assets/dtm9.jpg";
-import PalkhiSolah from "../assets/dtm2.jpg";
-import GuruPurnimaImg from "../assets/mgm1.jpg";
-
+import DattaJayantiImg from "../assets/Mgmf1.png";
+import GuruPurnima from "../assets/annadan2.jpeg";
+import ParayanImg from "../assets/parayan8.jpg";
+import Palkhisohala from "../assets/palkhiSohala.jpg";
 const eventsData = [
   {
     id: 1,
@@ -13,7 +12,7 @@ const eventsData = [
   },
   {
     id: 2,
-    image: GuruPurnimaImg,
+    image: GuruPurnima,
     title: "Guru Purnima",
     description:
       "Guru Purnima is an important festival that is celebrated to honor the spiritual teachers, or gurus, who impart knowledge and guidance. ",
@@ -27,7 +26,7 @@ const eventsData = [
   },
   {
     id: 4,
-    image: PalkhiSolah,
+    image: Palkhisohala,
     title: "Palkhi Sohala",
     description:
       "Datta Maharaj Palkhi Sohala is a religious procession that is dedicated to Dattatreya, a Hindu deity who is considered to be the incarnation of .",

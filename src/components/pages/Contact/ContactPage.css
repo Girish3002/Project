@@ -96,14 +96,14 @@
     }
 
     .contact-page-right .imagebox{
-        width: 100%;
+        width: 90vw;
         /* height: 430px; */
         border-radius: 0.25rem;
-    
+        margin: 0 auto;
         box-shadow: -3px -6px 72px 20px rgba(0,0,0,0.45);
     }
     .contact-page-right img{
-        width: 100%;
+        width: 90vw;
         /* height:430px; */
         object-fit: cover;
         text-align: center;

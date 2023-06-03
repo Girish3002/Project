@@ -5,7 +5,7 @@
 import DattaJayantiImg from "../assets/Mgmf1.png";
 import GuruPurnima from "../assets/annadan2.jpeg";
 import ParayanImg from "../assets/parayan8.jpg";
-import Palkhisohala from "../assets/parayan8.jpg";
+import Palkhisohala from "../assets/palkhiSohala.jpg";
 
 const eventspageData = [
   {
@@ -67,6 +67,7 @@ const eventspageData = [
     id: 4,
     // image: PalkhiSolah,
     title: "Palkhi Sohala",
+    image: Palkhisohala,
     description: [
       [
         "Palkhi Sohala is a vibrant and colorful procession celebrated in Dharangaon. Palkhi Sohala involves the carrying of palkhis, containing the padukas (footprints) of Shri Narasimha Saraswati Swami Maharaj.",
