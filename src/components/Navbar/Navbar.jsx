@@ -26,7 +26,7 @@ const Navbar = () => {
             className="logo"
           />
           <div className="logo-text">
-            <span className="logo-name">Shri Datta Devsthan </span>
+            <span className="logo-name">Shri Nirgun Paduka Math </span>
             <span className="logo-address">Dharangaon, Khadak. </span>
           </div>
         </div>
