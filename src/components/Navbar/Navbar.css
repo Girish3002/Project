@@ -60,6 +60,7 @@ body {
   list-style: none;
   padding-bottom: 1rem;
   padding-block: 1rem;
+  user-select: none;
 }
 
 .navbar-link:link,
