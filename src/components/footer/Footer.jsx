@@ -11,51 +11,55 @@ const Footer = () => {
     <div className="Footer">
       <div className="container">
         <div className="footer-top">
-          <div className="founder-info">
-            <div className="logo">
-              <img
-                src={MaheshGiriMaharajImg}
-                alt="Datta Maharaj logo"
-                className="logo"
-              />
-              <div className="logo-text">
-                <p className="logo-name">Founder-Acharya </p>
-                <p className="logo-address">Mahant Maheshgiri Maharaj. </p>
+          <div className="footer-left">
+            <div className="founder-info">
+              <div className="logo">
+                <img
+                  src={MaheshGiriMaharajImg}
+                  alt="Datta Maharaj logo"
+                  className="logo"
+                />
+                <div className="logo-text">
+                  <p className="logo-name">Founder-Acharya </p>
+                  <p className="logo-address">Mahant Maheshgiri Maharaj. </p>
+                </div>
+              </div>
+            </div>
+            <div className="place-info">
+              <div className="logo">
+                <img
+                  src={dattaMaharajLogo}
+                  alt="Datta Maharaj logo"
+                  className="logo"
+                />
+                <div className="logo-text">
+                  <p className="logo-name">Shri Datta Devasthan </p>
+                  <p className="logo-address">
+                    Nirgun Paduka Math, Dharangaon, Khadak.{" "}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div className="place-info">
-            <div className="logo">
-              <img
-                src={dattaMaharajLogo}
-                alt="Datta Maharaj logo"
-                className="logo"
-              />
-              <div className="logo-text">
-                <p className="logo-name">Shri Datta Devasthan </p>
-                <p className="logo-address">
-                  Nirgun Paduka Math, Dharangaon, Khadak.{" "}
-                </p>
+          <div className="footer-right">
+            <div className="contact-footer">
+              <hr />
+              <h2>Contact</h2>
+              <div className="contact-footer-details">
+                <p>Nirguna Paduka Math, Shri Datta Devasthan,</p>{" "}
+                <p> Shri Kshetra Dharangaon Khadak,</p>
+                <p>Taluka - Niphad, District - Nashik.</p>
+              </div>
+              <div className="contact-footer-phone">
+                <div className="contact-phone-icon">
+                  <BsFillTelephoneFill />
+                </div>
+                <div className="contact-phone-no">+91 7020114739</div>
               </div>
             </div>
           </div>
         </div>
         <div className="footer-bottom">
-          <div className="contact-footer">
-            <hr />
-            <h2>Contact</h2>
-            <div className="contact-footer-details">
-              <p>Nirguna Paduka Math, Shri Datta Devasthan,</p>{" "}
-              <p> Shri Kshetra Dharangaon Khadak,</p>
-              <p>Taluka - Niphad, District - Nashik.</p>
-            </div>
-            <div className="contact-footer-phone">
-              <div className="contact-phone-icon">
-                <BsFillTelephoneFill />
-              </div>
-              <div className="contact-phone-no">+91 7020114739</div>
-            </div>
-          </div>
           <hr />
           <div className="footer-end">
             <div className="footer-end-left">

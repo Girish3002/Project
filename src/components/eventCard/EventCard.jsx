@@ -35,7 +35,7 @@ const EventCard = ({ event }) => {
                 window.scrollTo(0, 0);
               }}
             >
-              Donation
+              Donate
             </div>
           </div>
           <div
