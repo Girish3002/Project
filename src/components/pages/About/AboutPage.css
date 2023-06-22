@@ -1,0 +1,147 @@
+.AboutPage{
+    padding-top: 4.7rem;  
+}
+.about-page-container{
+    margin-bottom: 60px;
+}
+.AboutPage .container .about-heading{
+    /* margin-left: 0; */
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    text-align: start;
+    color: var(--primary-color);
+}
+.about-page-description{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    /* width: 100vw; */
+
+}
+.about-page-description-left{
+
+    width: 60%;
+}
+.about-page-description-left p{
+    font-size: 1rem;
+    color: #2f343f;
+}
+.about-page-description-left .aboutInfo-padding{
+padding-bottom: 15px;
+}
+.about-page-hr{
+    border: 1px solid black;
+}
+.about-page-description-right{
+
+    width: 40%;
+}
+.about-page-description-right {
+    display: flex;
+    align-items: start;
+    margin-top: 10px;
+    justify-content: center;
+    
+}
+.about-page-description-right img{
+    height: 280px;
+   width: 480px;
+    object-fit: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+   
+}
+
+.about-page-description-right .sample-image .blank-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-page-description-right .sample-image p{
+    
+}
+.about-page-description-right .sample-image .blank-image{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* media queries */
+@media screen and (max-width: 500px){
+    .about-heading{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 990px){
+    .about-page-description{
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: 0 auto;
+
+    }
+    .about-page-container{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    .about-page-description-left{
+        /* margin: 0 auto; */
+        width: 100%;
+    }
+    .about-page-description-right{
+
+        width: 100%;
+        margin-bottom:20px;
+    }
+    .about-page-description-right img{
+        width: 50vw;
+        max-height: 280px;
+       
+        object-fit: cover;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3%;
+       
+    }
+       
+       /* flex-direction: column;
+       align-items: start;
+       /* justify-content: center; */
+       /* min-height: 650px; */
+       /* margin-block: 0px; */
+     */
+    .eventLeft{
+        width: 100%;
+        min-width: auto;
+        align-items: start;
+        height: min-content;
+    }
+    .eventLeft img{
+        /* max-height: 265px; */
+        /* min-width: none; */
+    }
+    .eventRight h3{
+        font-size: 1.39rem;
+    }
+  
+    
+}
+/* @media screen and (max-width: 500px){
+    .eventBottomButtons{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .EventCard{
+        min-height: 590px;
+    }
+} */

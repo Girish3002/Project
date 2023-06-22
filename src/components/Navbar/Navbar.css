@@ -72,6 +72,7 @@ body {
   font-weight: 700;
   color: white;
   transition: all 0.3s;
+  user-select: none;
 }
 
 .navbar-link:hover,
@@ -177,6 +178,7 @@ Responsive Codes
     /* to get the tranisition  */
     transform: translateX(100%);
     transition: all 0.5s linear;
+    user-select: none;
 
     opacity: 0;
     visibility: hidden;
@@ -187,10 +189,12 @@ Responsive Codes
   .navbar-list {
     flex-direction: column;
     align-items: center;
+    user-select: none;
     
   }
   .navbar-link{
     color: black;
+    user-select: none;
   }
 
   .active .navbar {
@@ -198,6 +202,7 @@ Responsive Codes
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    user-select: none;
     /* color: black; */
     /* -webkit-mask-image: linear-gradient(to bottom, rgba(255,255,255) 10%,rgba(255,255,255)10%);
     mask-image: linear-gradient(black, black); */
@@ -208,6 +213,7 @@ Responsive Codes
 .navbar-link:visited {
   font-size: x-large;
   color: black;
+  user-select: none;
   
 }
 
@@ -230,6 +236,7 @@ Responsive Codes
   .navbar-link:visited {
     font-size:larger;
     color: black;
+    user-select: none;
     
   }
 }
