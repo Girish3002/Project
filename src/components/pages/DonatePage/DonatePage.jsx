@@ -1,8 +1,10 @@
 import React from "react";
-// import "./EventsPage.css";
-import eventspageData from "../../eventpagedata";
+// import "./DonatePage.css";
+import "./DonatePage.css";
+// import DonatepageData from "../../Donatepagedata";
 import { useParams } from "react-router-dom";
 import { useEffect, useRef } from "react";
+import QRcodeImg from "../../../assets/DonateQRcode.jpeg";
 
 const DonatePage = () => {
   //   const { slideId } = useParams();
@@ -20,24 +22,24 @@ const DonatePage = () => {
   //   }, [slideId]);
 
   return (
-    <div className="EventsPage">
+    <div className="DonatePage">
       <div className="container">
-        <div className="events-page-container">
+        <div className="Donate-page-container">
           <div>
             <div>
-              <h2 className="events-heading">Why Donate? </h2>
+              <h2 className="Donate-heading">Why Donate? </h2>
             </div>
-            <div className="events-page-description">
-              <div className="events-page-description-left">
-                <p className="eventInfo">
-                  <p className="eventInfo-padding">
+            <div className="Donate-page-description qrcode">
+              <div className="Donate-page-description-left">
+                <p className="DonateInfo">
+                  <p className="DonateInfo-padding">
                     At Dharangaon, one of the significant services provided is
                     offering free food to the devotees who visit this place.
                     Specially on Thursday there is MahaPrasad. This practice of
                     offering free food holds immense significance and serves
                     multiple purposes.
                   </p>
-                  <p className="eventInfo-padding">
+                  <p className="DonateInfo-padding">
                     Feeding others is often seen as a form of seva (selfless
                     service) in many spiritual traditions. When individuals
                     offer food to others, they engage in a spiritual practice
@@ -45,14 +47,14 @@ const DonatePage = () => {
                     others. This resonates with the teachings and ideals of
                     Datta Maharaj.
                   </p>
-                  <p className="eventInfo-padding">
+                  <p className="DonateInfo-padding">
                     It is believed that Datta Maharaj stays close to those who
                     selflessly offer food and feed people. By participating in
                     such acts of service, individuals establish a deeper
                     spiritual connection with Datta Maharaj and invite his
                     presence into their lives.
                   </p>
-                  <p className="eventInfo-padding">
+                  <p className="DonateInfo-padding">
                     Remember, even a small donation can have a significant
                     impact when combined with the collective efforts of many.
                     So, feel free to donate and be part of the annadan service.
@@ -61,20 +63,18 @@ const DonatePage = () => {
                     heart.
                   </p>
                 </p>
-                {/* {element.id !== eventspageData.length && (
-                      <hr className="events-page-hr" />
+                {/* {element.id !== DonatepageData.length && (
+                      <hr className="Donate-page-hr" />
                     )} */}
               </div>
 
               {/* images to be integrated here */}
 
-              <div className="events-page-description-right">
-                {/* <img src="" alt="" /> */}
-                <div className="sample-image">
-                  <div className="blank-image">
-                    <p>PhonePay Qrcode here</p>
-                  </div>
-                </div>
+              <div className="Donate-page-description-right-donate">
+                <img className="donate-qr" src={QRcodeImg} alt="qrcodeimg" />
+                <h3>SHREE DEOSTHAN TRUST</h3>
+                <h4>shree91680119@barodampay</h4>
+                <p className="qrcodep">SCAN TO PAY With Any BHIM UPI APP</p>
               </div>
             </div>
           </div>

@@ -1,5 +1,6 @@
 .EventCard{
-    width: 100%;
+    /* width: 100%; */
+    max-width: 30vw;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -8,9 +9,10 @@
     /* margin-block: 10px; */
     overflow: hidden;
     margin-inline: auto;
-
+    
     gap:1.5rem;
-    height: 230px;
+    /* height: 230px; */
+    height: 500px;
     background-color: white;
     border-radius:20px;
     margin-block: 3rem;
@@ -18,18 +20,25 @@
     /* padding-block: 20px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .eventLeft{
 
-   width: 30%;
-  
-   
-    height: 100%;
+   width: 100%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     /* padding-block: 20px; */
   
+}
+.eventLeft{
+    /* width: 100%; */
+    /* min-width: auto; */
+    /* align-items: start; */
+    /* height: min-content; */
+}
+.eventLeft .eventImg{
+    width: 100%;
 }
 
 .eventLeft img{
@@ -39,7 +48,8 @@
     margin: auto;
     border-radius: 5%; */
     border-radius: 5%;
-    width: 300px;
+    /* width: 300px; */
+    width: 100%;
     height: 195px;
     object-fit: cover;
     /* object-position: top; */
@@ -52,7 +62,7 @@
     flex-direction: column;
     gap: 20px;
     flex-wrap: wrap;
-    width: 60%;
+    width: 100%;
 }
 .eventRight h3{
     font-size: 1.5rem;
@@ -75,11 +85,26 @@
 }
 
 .eventRight .eventBottomButtons .secondButton{
-    color: #439fe0;
+    /* color: #439fe0; */
+    color: orange;
     text-decoration: underline;
     margin-right: 30px;
     cursor: pointer;
 }
+
+.eventLeft img{
+    /* max-width: 350px; */
+
+    /* padding-inline: 10px; */
+    /* margin-inline: 10px; */
+}
+.eventRight{
+    width: 100%;
+}
+.eventRight h3{
+    font-size: 1.39rem;
+}
+
 
 @media screen and (max-width: 990px){
     .EventCard{

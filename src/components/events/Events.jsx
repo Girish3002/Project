@@ -37,8 +37,37 @@ export default class CustomArrows extends Component {
     const settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 1,
+      slidesToShow: 2,
       slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1424,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true,
+          },
+        },
+
+        {
+          breakpoint: 1025,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 2,
+          },
+        },
+      ],
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
     };

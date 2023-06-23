@@ -44,7 +44,7 @@ const EventCard = ({ event }) => {
               handleKnowMoreClick(event.id);
             }}
           >
-            Know more
+            Read more
             {/* <Link key={event.id} to={`/events#${event.id}`}></Link>Know more */}
           </div>
         </div>
