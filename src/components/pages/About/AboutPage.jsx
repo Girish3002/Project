@@ -3,7 +3,8 @@ import "./AboutPage.css";
 // import aboutpageData from "../../eventpagedata";
 // import { useParams } from "react-router-dom";
 // import { useEffect, useRef } from "react";
-import maharajImg from "../../../assets/mgm3.jpg";
+import maharajImg1 from "../../../assets/nsm4.jpg";
+import maharajImg2 from "../../../assets/mgm3.jpg";
 
 const AboutPage = () => {
   // const { slideId } = useParams();
@@ -67,7 +68,7 @@ const AboutPage = () => {
 
               <div className="about-page-description-right">
                 <div className="imagebox">
-                  <img src={maharajImg} alt="devsthanImg1" />
+                  <img src={maharajImg1} alt="devsthanImg1" />
                 </div>
               </div>
             </div>
@@ -121,7 +122,7 @@ const AboutPage = () => {
 
               <div className="about-page-description-right">
                 <div className="imagebox">
-                  <img src={maharajImg} alt="devsthanImg1" />
+                  <img src={maharajImg2} alt="devsthanImg1" />
                 </div>
               </div>
             </div>

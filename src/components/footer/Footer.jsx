@@ -20,7 +20,7 @@ const Footer = () => {
                   className="logo"
                 />
                 <div className="logo-text">
-                  <p className="logo-name">Founder-Acharya </p>
+                  <p className="logo-name">Guruvarya </p>
                   <p className="logo-address">Mahant Maheshgiri Maharaj. </p>
                 </div>
               </div>

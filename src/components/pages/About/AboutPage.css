@@ -48,7 +48,8 @@ padding-bottom: 15px;
 .about-page-description-right img{
     height: 280px;
    width: 480px;
-    object-fit: none;
+    object-fit: cover;
+    object-position: top;
     text-align: center;
     display: flex;
     justify-content: center;
