@@ -85,14 +85,14 @@ const Footer = () => {
                   );
                 }}
               />
-              <FiInstagram
+              {/* <FiInstagram
                 onClick={() => {
                   window.open(
                     "https://www.instagram.com/dattadevsthan1608/",
                     "_blank"
                   );
                 }}
-              />
+              /> */}
             </div>
           </div>
         </div>

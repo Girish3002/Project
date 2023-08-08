@@ -3,7 +3,7 @@ import "./AboutPage.css";
 // import aboutpageData from "../../eventpagedata";
 // import { useParams } from "react-router-dom";
 // import { useEffect, useRef } from "react";
-import maharajImg1 from "../../../assets/nsm4.jpg";
+import maharajImg1 from "../../../assets/nsm4-min.jpg";
 import maharajImg2 from "../../../assets/mgm3.jpg";
 
 const AboutPage = () => {
